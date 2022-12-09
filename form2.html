@@ -12,7 +12,7 @@ body{
   background-color: #f1f1f1;  
 }  
   
-input[type=text], input[type=password], textarea {  
+input[type=text], input[type=password], input[type=date],input[type=time],select,textarea {  
   width: 100%;  
   padding: 15px;  
   margin: 5px 0 22px 0;  
@@ -54,23 +54,26 @@ hr {
             border-radius: 4px;
             display: inline;
 }
+a{
+  text-decoration: none;
+}
 .registerbtn:hover {  
   opacity: 1;  
 }
 label{
-  font-size: xx-large;
+  font-size:x-large;
 }  
 </style>  
 </head>  
 <body>  
 <form>  
   <div class="container">  
-  <center><h1> Register here</h1> </center>  
+  <center><h1><u> Register Here</h1></u> </center>  
   <hr>  
 <label> Name </label>   
 <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
 <label> Adhar Number: </label>  
-<input type="number" name="Adhar number" placeholder= "Adhar number" size="15" required />
+<input type="text" name="Adhar number" placeholder= "Adhar number" size="15" required />
 <div>  
 <label>   
 Role:  
@@ -90,6 +93,25 @@ Gender :
 <input type="radio" value="Other" name="gender"> Other  
   
 </div>  
+<div>  
+  <label>   
+  Crop :  
+  </label>     
+  <select>  
+  <option value="Course">Ragi</option>    
+  <option value="MCA">Wheat</option>  
+  <option value="M.Tech">Rice</option>
+  <option value="Course">Ragi</option>    
+  <option value="MCA">Wheat</option>  
+  <option value="M.Tech">Rice</option>
+  </select>  
+  </div>  
+  <label> Date : </label>   
+  <input type="date" name="" placeholder= "12-09-22" size="" required /><br>
+  <label> Time : </label>   
+  <input type="time" name="" placeholder= "12-09-22" size="" required /><br>
+
+
 <label>   
 Phone :  
 </label>  
@@ -105,8 +127,16 @@ Current Address :
   
     <label for="psw-repeat"><b>Confirm Password</b></label>  
     <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
-    <button type="submit" class="registerbtn">Submit</button>
-    <button type="submit" class="registerbtn">Reset</button>    
+   <button type="submit" class="registerbtn" onclick="f1()">Submit</button>
+    
+    <button type="submit" class="registerbtn">Reset</button>   
+    <!-- <a href="index2.html"><button type="" class="registerbtn">Back to Home Page</button></a>  -->
 </form>  
+
+<script>
+  function f1(){
+    alert('Form submitted successfully!!')
+  }
+</script>
 </body>  
 </html>  
