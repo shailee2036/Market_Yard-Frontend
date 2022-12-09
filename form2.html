@@ -5,6 +5,119 @@
 <style>  
 body{  
   font-family: Calibri, Helvetica, sans-serif;  
+  background-color: #b8dd24 ;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: #f1f1f1;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #b8dd24 ; 
+  color: white; 
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: #b8dd24 ;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #b8dd24 ;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+    background-image: linear-gradient(
+              to right,
+              #d2d21a 10%,
+              #b8dd24 51%,
+              #30c31c 100%
+            );
+}  
+.registerbtn{
+    margin: 10px;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            text-transform: capitalize;
+            transition: 0.5s;
+            font-weight: 600;
+            background-size: 200% auto;
+            color: black;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 4px;
+            display: inline;
+}
+.registerbtn:hover {  
+  opacity: 1;  
+}
+label{
+  font-size: xx-large;
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center><h1> Register here</h1> </center>  
+  <hr>  
+<label> Name </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> Adhar Number: </label>  
+<input type="number" name="Adhar number" placeholder= "Adhar number" size="15" required />
+<div>  
+<label>   
+Role:  
+</label>     
+<select>  
+<option value="Course">Farmer</option>    
+<option value="MCA">Retailer</option>  
+<option value="M.Tech">wholesaler</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>      
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Confirm Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn">Submit</button>
+    <button type="submit" class="registerbtn">Reset</button>    
+</form>  
+</body>  
+</html>  
+=======
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
   background-color: #dda624;  
 }  
 .container {  
@@ -109,4 +222,4 @@ Current Address :
     <button type="submit" class="registerbtn">Reset</button>    
 </form>  
 </body>  
-</html>  
+</html>   
