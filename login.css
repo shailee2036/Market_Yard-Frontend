@@ -5,7 +5,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0)50%,rgba(0,0,0,0)50%), url(abd.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0)50%,rgba(0,0,0,0)50%), url(back.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -24,7 +24,7 @@
 }
 
 .logo{
-    color: orange;
+    color:rgb(73, 159, 212);
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -61,7 +61,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color:orange;
+    color:rgb(73, 159, 212);
 } 
 
 .search{
@@ -75,7 +75,7 @@ ul li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid orange;
+    border: 1px solid rgb(73, 159, 212);
     margin-top: 13px;
     color: white;
     border-right: none;
@@ -89,8 +89,8 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: orange;
-    border: 2px solid orange;
+    background: rgb(73, 159, 212);
+    border: 2px solid rgb(73, 159, 212);
     margin-top: 13px;
     color: white;
     font-size: 15px;
@@ -134,7 +134,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: orange;
+    background: rgb(73, 159, 212);
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -156,7 +156,7 @@ ul li a:hover{
 }
 
 .content span{
-    color: orange;
+    color: rgb(73, 159, 212);
     font-size: 60px;
 }
 
@@ -176,7 +176,7 @@ ul li a:hover{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: orange;
+    color: rgb(73, 159, 212);
     font-size: 22px;
     border-radius: 10px;
     margin: 2px;
@@ -210,7 +210,7 @@ ul li a:hover{
 .btnn{
     width: 240px;
     height: 40px;
-    background: orange;
+    background: rgb(73, 159, 212);
     border: none;
     margin-top: 30px;
     font-size: 18px;
@@ -222,7 +222,7 @@ ul li a:hover{
 
 .btnn:hover{
     background: white;
-    color: orange;
+    color:rgb(73, 159, 212);
 }
 
 .btnn a{
@@ -241,7 +241,7 @@ ul li a:hover{
 
 .form .link a{
     text-decoration: none;
-    color: orange;
+    color: rgb(73, 159, 212);
 }
 
 .liw{
@@ -256,6 +256,6 @@ ul li a:hover{
 }
 
 .fpass a{
-    color: orange;
+    color: rgb(73, 159, 212);
     text-decoration: none;
 }
