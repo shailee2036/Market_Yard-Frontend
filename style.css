@@ -26,16 +26,6 @@
     color: #1d3557;
   }
   
-  .food__list__view__more {
-    margin: 2rem 0;
-    transition: 0.3s;
-    color: #fff;
-    padding: 1rem;
-    border-radius: 6px;
-    background: linear-gradient(to right,  #e9e91b 0%,
-    #dda624 51%,
-    #ff9e2f 100%);
-  }
   .food__list__container {
     position: relative;
     margin: 5rem 0;
